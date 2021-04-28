@@ -5,7 +5,6 @@
 Creates a signed token, for passing user identity to sponsor client library.
 
 ```python
-
 from nitropay.sponsor import Signer
 
 signer = Signer(private_key)
@@ -18,3 +17,9 @@ signed = signer.sign(
 )
 
 ```
+
+You can also retrieve subscription status for a user with:
+
+```python
+signer.getUserSubscription(user_id)
+````

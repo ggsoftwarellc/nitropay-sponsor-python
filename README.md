@@ -4,6 +4,13 @@
 
 Creates a signed token, for passing user identity to sponsor client library.
 
+## Installation
+
+```console
+$ pip install nitropay-sponsor-python
+```
+
+## Usage
 ```python
 from nitropay.sponsor import Signer
 
